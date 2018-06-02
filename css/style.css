@@ -364,6 +364,7 @@ input:placeholder-shown {
 
 }
 
+.cta-input,
 .footer-input {
     width: 100%;
 }
@@ -374,7 +375,53 @@ input:placeholder-shown {
 
 
 
-/* Use this for gallery cards */
+/* Header Cover */
+
+.header-cover {
+    position: relative;
+    background-image: url(../img/our-work/ben-lowe-477540-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    z-index: -2;
+    border-bottom: 5px solid #C6F327;
+}
+
+.header-cover > span {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    content: " ";
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+
+}
+
+.header-cover-subtitle {
+    color: #9F9F9F;
+}
+
+.header-cover-title {
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.header-cover-title,
+.header-cover-body {
+    color: white;
+}
+
+/* Content Card */
+
+.content-card {
+    -webkit-box-shadow: -1px 1px 5px 0px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: -1px 1px 5px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: -1px 1px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+.content-card-title {}
+
+.content-card-text {}
 
 /* Remove footer padding on mobile screens */
 
